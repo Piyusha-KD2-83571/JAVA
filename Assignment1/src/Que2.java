@@ -24,7 +24,7 @@ public class Que2 {
 		
 		System.out.print("Enter num1 :");
 		
-		if (sc.hasNextDouble())
+		if (sc.hasNextDouble())// Has next double Checks if the next value is double or not
 		{
 			num1 = sc.nextDouble();
 			System.out.print("Enter num2 :");
