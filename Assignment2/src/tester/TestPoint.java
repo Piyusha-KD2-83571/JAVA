@@ -32,6 +32,10 @@ public class TestPoint {
 		
 		Scanner sc  = new Scanner(System.in);
 		
+		   
+		   // TestPoint.getDetais(p1);
+		
+		
 		 String S = p1.getDetails();//getting method
 		 System.out.println("The x and y co-ordinate : "+S);
 		 

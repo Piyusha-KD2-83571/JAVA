@@ -22,8 +22,8 @@ package com.app.geometry;
 
 public class Point2D {
 	
-	private int x;
-	private int y;
+	private static int x;
+	private static int y;
 	
 	public Point2D()
 	{
@@ -40,8 +40,10 @@ public class Point2D {
 	
 	//Getting String as return 
 	public String getDetails()
-	{
-	  return "("+ x+","+y+")";
+	{ 
+		
+	  return "("+ x +","+ y +")" ;
+		//Str
 	}
 	
 	//IsEqual method
