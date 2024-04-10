@@ -25,6 +25,7 @@ public class SalariedEmployee extends Employee
 	{
 		return "SalariedEmployee [weekly_sal=" + weekly_sal + "]";
 	}
+	
 
 
 	public SalariedEmployee(double weekly_sal) 

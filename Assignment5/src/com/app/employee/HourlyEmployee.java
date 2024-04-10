@@ -40,7 +40,7 @@ public class HourlyEmployee extends Employee
 		return "HourlyEmployee [wages=" + wages + ", hours=" + hours + "]";
 	}
 
-
+   
 
 	@Override
 	public double calSal() {
